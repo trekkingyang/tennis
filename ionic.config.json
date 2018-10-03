@@ -4,5 +4,19 @@
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
-  }
+  },
+  "proxies": [
+    {
+      "path": "/list",
+      "proxyUrl": "http://localhost:3000/list"
+    },
+    {
+      "path": "/clickRecord",
+      "proxyUrl": "http://localhost:3000/clickRecord"
+    },
+    {
+      "path": "/favorRecord",
+      "proxyUrl": "http://localhost:3000/favorRecord"
+    }
+  ]
 }
